@@ -1,0 +1,216 @@
+header{                                                             /*=============Header tag starts==========*/
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 20px 20px;
+  
+    }
+    body{
+        min-height: 100vh;
+        width: 100%;
+        background-color: black;
+        background-image: url(/Files/Circle.gif);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        color: aliceblue;
+        padding: 0 8%;
+        
+    }
+    
+    a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: larger;
+    }
+    
+    nav{
+    /* word-spacing: 28px; */
+    }
+
+
+    #contact{
+    background-color: rgb(166, 255, 0);
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    
+    }
+    #contact:hover{
+    pointer-events: all;
+    background-color: aqua;
+    
+    }
+    #Aircampus{
+    font-style: italic;
+    font-size: 30px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);}
+    
+    #Aircampus:hover{
+        color: blueviolet;
+    }
+    
+       /*=============Section 1 starts==================*/
+       .guarantee{
+           text-align: center;
+           display: inline-block;
+           margin-left: 130px;
+           width: 80%;
+           font-size: 30px;
+
+       }
+       h1{
+           font-size: 30px;
+           font-weight: 1000;
+
+       }
+       .LPA{
+           display: inline-block;
+           margin-top: -20px;
+           background-color: rgb(222, 231, 89);
+           text-align: center;
+           width: 200px;height: 30px;
+           padding-top: 0px;
+           border-top-right-radius: 50px;
+           border-bottom-left-radius: 50px;
+
+       }
+       .flex1{
+           display: flex;
+           justify-content: space-around;
+       }
+       .apply{
+           background-color: rgb(216, 143, 94);
+           border: none;
+           color: aliceblue;
+           padding: 10px;
+           width: 100px;
+       }
+       .apply:hover{
+           cursor: pointer;
+           box-shadow: 5px 2px 5px 5px rgb(202, 166, 49);
+
+       }
+       .class1{
+           padding: 20px;
+       }
+       .class1:hover{
+           color: rgb(255, 127, 176);
+       }
+
+          /*=============Section 2 Starts==================*/
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+      
+          .section2{
+              display: flex;
+              margin-top: 100px;
+              /* background-color: rgb(255, 254, 183); */
+             flex-wrap: wrap;
+             overflow: hidden;
+              justify-content: space-around;
+          }
+          .box1, .box2, .box3{
+              border: 3px solid rgb(197, 226, 129);
+              padding:10px;
+              display: flex;
+              overflow: hidden;
+              margin: 20px;
+              box-shadow: 5px 3px 30px 5px greenyellow;
+              transition: 1s;
+              width: 250px;
+          }
+          .box1:hover{
+              background-color: rgb(255, 255, 255);
+              transform: translate3d(12px, -10px, 10px);
+              color: brown;
+              box-shadow: 5px 5px 5px 5px rgb(159, 201, 96);
+          }
+          .box2:hover{
+              background-color: rgb(255, 255, 255);
+              transform: translate3d(12px, -10px, 10px);
+              color: brown;
+              box-shadow: 5px 5px 5px 5px rgb(159, 201, 96);
+          }
+          .box3:hover{
+              background-color: rgb(245, 245, 245);
+              transform: translate3d(12px, -10px, 10px);
+              color: brown;
+              box-shadow: 5px 5px 5px 5px rgb(159, 201, 96);
+          }
+        
+          
+          .font{
+              align-self: center;
+              font-size: 50px;
+              margin-left: -25px;
+              margin-right: 20px;
+          }
+          .p1{
+              font-size: larger;
+          }
+          .p2{
+              font-size: 25px;
+              font-weight: 1000;
+              color: brown;
+              font-style: italic;
+          }
+        
+
+            /*=============Section 3 starts==================*/
+            .section3{
+                display: flex;
+                margin-top: 100px;
+               flex-wrap: wrap;
+               overflow: hidden;
+                justify-content: space-around;
+            }
+
+            .box4, .box5, .box6{
+                border: 3px solid rgb(197, 226, 129);
+                padding:10px;
+                display: flex;
+                overflow: hidden;
+                margin: 20px;
+                box-shadow: 2px 3px 10px 5px rgb(217, 250, 168);
+                transition: 1s;
+                width: 250px;
+            }
+            .box4:hover{
+                background-color: rgb(255, 255, 255);
+                transform: translate3d(12px, -10px, 10px);
+                color: brown;
+                box-shadow: 5px 5px 5px 5px rgb(159, 201, 96);
+            }
+            .box5:hover{
+                background-color: rgb(255, 255, 255);
+                transform: translate3d(12px, -10px, 10px);
+                color: brown;
+                box-shadow: 5px 5px 5px 5px rgb(159, 201, 96);
+            }
+            .box6:hover{
+                background-color: rgb(245, 245, 245);
+                transform: translate3d(12px, -10px, 10px);
+                color: brown;
+                box-shadow: 5px 5px 5px 5px rgb(159, 201, 96);
+            }
+
+             /*=============Section 4 starts==================*/
+
+
+             h4{
+                 color: rgb(173, 144, 144);
+             }
+             #p4{
+                 color: brown;
+                 font-size: 30px;
+             }
